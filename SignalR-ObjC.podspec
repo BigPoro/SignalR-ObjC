@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |sp|
     sp.source_files = 'Framework/*.{h}', 'SignalR.Client/**/*.{h,m}'
-    sp.dependency 'AFNetworking/NSURLSession', '2.6.3'
-    sp.dependency 'AFNetworking/Reachability', '2.6.3'
-    sp.dependency 'AFNetworking/Security', '2.6.3'
-    sp.dependency 'AFNetworking/Serialization', '2.6.3'
+    sp.dependency 'AFNetworking/NSURLSession', '2.7.0'
+    sp.dependency 'AFNetworking/Reachability', '2.7.0'
+    sp.dependency 'AFNetworking/Security', '2.7.0'
+    sp.dependency 'AFNetworking/Serialization', '2.7.0'
     sp.dependency 'SocketRocket', '0.5.1'
   end
 
