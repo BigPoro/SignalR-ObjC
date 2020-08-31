@@ -5,10 +5,11 @@ target "SignalR.Client.iOS" do
     use_frameworks!
     platform :ios, '8.0'
     
-    pod 'AFNetworking/NSURLSession', '2.7.0'
-    pod 'AFNetworking/Reachability', '2.7.0'
-    pod 'AFNetworking/Security', '2.7.0'
-    pod 'AFNetworking/Serialization', '2.7.0'
+    pod 'AFNetworking/NSURLSession', '2.6.3'
+    pod 'AFNetworking/Reachability', '2.6.3'
+    pod 'AFNetworking/Security', '2.6.3'
+    pod 'AFNetworking/Serialization', '2.6.3'
+    pod 'AFNetworking/NSURLConnection', '2.6.3'
 
     pod 'SocketRocket', '0.5.1'
     
@@ -25,6 +26,7 @@ target :"SignalR.Client.OSX" do
     pod 'AFNetworking/Reachability', '2.6.3'
     pod 'AFNetworking/Security', '2.6.3'
     pod 'AFNetworking/Serialization', '2.6.3'
+    pod 'AFNetworking/NSURLConnection', '2.6.3'
 
     pod 'SocketRocket', '0.5.1'
     

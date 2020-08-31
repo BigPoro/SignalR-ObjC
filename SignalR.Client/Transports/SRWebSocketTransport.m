@@ -20,7 +20,7 @@
 //  DEALINGS IN THE SOFTWARE.
 //
 
-#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFURLRequestSerialization.h>
 #import <SocketRocket/SRWebSocket.h>
 #import "SRWebSocketTransport.h"
 #import "SRLog.h"

@@ -1,11 +1,4 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
   - AFNetworking/NSURLConnection (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -17,19 +10,20 @@ PODS:
   - AFNetworking/Reachability (2.6.3)
   - AFNetworking/Security (2.6.3)
   - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
   - OCMock (3.2.2)
-  - SocketRocket (0.4.2)
+  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - AFNetworking (= 2.6.3)
+  - AFNetworking/NSURLConnection (= 2.6.3)
+  - AFNetworking/NSURLSession (= 2.6.3)
+  - AFNetworking/Reachability (= 2.6.3)
+  - AFNetworking/Security (= 2.6.3)
+  - AFNetworking/Serialization (= 2.6.3)
   - OCMock
-  - SocketRocket (= 0.4.2)
+  - SocketRocket (= 0.5.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - OCMock
     - SocketRocket
@@ -37,8 +31,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
-  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: b3a3a58c75f13f9a520b6c950906fdd364953a26
+PODFILE CHECKSUM: f03bb9664b165158e295888a8d5a071407592627
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
